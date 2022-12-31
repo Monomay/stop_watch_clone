@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="stop_watch.webp" width="200px" alt="">
+        
+        <h2>VANILLA JAVASCRIPT STOPWATCH</h2>
+
+        <p><span id="sec" class="sec">00</span> : <span id="ten" class="ten">00</span></p>
+        <button id="btn-start" class="btn-start">Start</button>
+        <button id="btn-stop" class="btn-stop">Stop</button>
+        <button id="btn-lap" class="btn-lap">Lap</button>
+        <button id="btn-reset" class="btn-reset">Reset</button>
+
+        <ul id="lap" class="lap">
+            <button id="lap-clear-btn" class="lap-clear-btn" onclick="fun()">Clear</button>
+        </ul>
+
+
+
+        <script src="index.js"></script>
+    </div>
+    
+</body>
+</html>
